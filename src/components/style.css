@@ -1,0 +1,66 @@
+.container_card{
+  height : 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container_form {
+  display: flex;
+  flex-direction: column;
+  background-image: url(../assets/img/gender.jpg);
+  background-size: cover;
+  border: 2px solid grey;
+  box-shadow: 10px 5px 5px lightgray;
+  padding: 100px 100px 100px;
+  min-width: 30rem;
+  min-height: 20rem ;
+}
+
+.container_form h3 {
+  color: rgb(44, 43, 43);
+  font-size: 28px;
+  font-weight: 700;
+  margin-bottom: 45px;
+}
+
+.form_content {
+  display: flex;
+  margin-bottom: 70px;
+}
+
+.form_content input {
+  display: block;
+  width: 100% auto;
+  padding: 10px 0px;
+  border: none;
+  outline: none;
+  border-bottom: 3px solid #8379d1;
+  color: #666;
+  font-size: 20px;
+  transition: 0.4s ease-out;
+}
+
+.button_form {
+  display: block;
+  width: auto;
+  padding: 15px 60px;
+  border: 3px solid #8b97d7;
+  border-radius: 999px;
+  background-image: linear-gradient(to right, transparent 50%, #5260ad 50%, #8b97d7);
+  background-size: 200%;
+  color: #8b97d7;
+  font-size: 24px;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.button_form:hover {
+  color: #fff;
+  background-position: 100%;
+  border: 3px solid #fff;
+}
+
+
+
+
